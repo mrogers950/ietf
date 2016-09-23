@@ -235,6 +235,9 @@
 		in the flags field.
               </t>
 
+              <t hangText="Reference:">
+		A reference to the details of the flag.
+              </t>
             </list>
           </t>
         </section>
@@ -243,7 +246,11 @@
           <texttable style="none" align="left">
             <ttcol /><ttcol />
             <c>&#8226;</c><c>Value: m</c>
-            <c>&#8226;</c><c>Description: Target is a master server</c>
+            <c>&#8226;</c><c>Description: The target is a master server. The
+            client SHOULD consider this server as one that would immediately
+            see password changes and use it as a fallback for incorrect password
+            errors.</c>
+            <c>&#8226;</c><c>Reference: TBD</c>
           </texttable>
 
         </section>
